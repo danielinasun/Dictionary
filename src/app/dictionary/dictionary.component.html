@@ -1,0 +1,22 @@
+<br/>
+<div class="jumbotron">
+    <h5 class="display-4">Lo Furno<br>SOFT-TOUR</h5>
+    <p class="lead">Le dictionnaire </p>
+    <hr class="my-2">
+
+    <div class=" container">
+        <div class="col-md3">
+            <label for="src">Italiano</label>
+            
+            <textarea type="text" id="src" class="md-textarea form-control" mdbInput [(ngModel)]="source" placeholder="Digita il testo in italiano, es.: Noi volevamo sapere l'indirizzo"></textarea>
+          </div>
+          <br>
+          <button class="btn btn-sm btn-outline-primary" me-2 (click)=translate()>Traduci</button>
+          <div class="col-md3">
+              <br>
+            <label for="trg">Francese</label>
+            <textarea type="text" id="trg" class="md-textarea form-control" mdbInput [(ngModel)]="target"></textarea>
+          </div>
+        </div>
+</div>
+
